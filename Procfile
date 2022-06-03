@@ -1,1 +1,1 @@
-web: gunicorn smart_health.wsgi --pythonpath smart_health--log-file -
+web: gunicorn smart_health.wsgi --pythonpath smart_health --log-file -
